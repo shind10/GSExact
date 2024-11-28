@@ -24,9 +24,8 @@ $X_{j}$ is a fully observed cluster-level variable. Additionally,
 $u_j \sim \mathcal{N}(0, \tau)$ represents a level-2 unit-specific
 random effect, and $e_{ij} \sim \mathcal{N}(0, \sigma^2)$ represents a
 level-1 unit-specific random effect, both of which are independent.
-
-Currently, the package assumes that the cluster size $n$ is consistent
-across all clusters $J$.
+Currently, the package only can handle HLM cases where the cluster size
+$n$ is consistent across all clusters $J$.
 
 This limitation primarily arises from the need to ensure compatibility.
 For each unique HLM of interest, exact posterior distributions (for
